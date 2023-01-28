@@ -1,0 +1,52 @@
+.rb-doc-template-field-sidebar {
+  .dropdown-menu.show {
+    max-width: 288px;
+  }
+
+  .b-sidebar {
+    top: $rb-doc-template-field-sidebar-top;
+    padding-bottom: $rb-doc-template-field-sidebar-top;
+  }
+
+  .rb-sidebar-close-btn {
+    opacity: 0.5;
+    position: absolute;
+    left: $rb-doc-template-field-sidebar-close-button-left;
+    border-radius: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 16px;
+
+    .rb-icon {
+      font-size: 24px;
+      line-height: 24px;
+      vertical-align: middle;
+    }
+  }
+
+  form {
+    padding: 10px 16px;
+
+    .rb-form-section {
+      margin-bottom: 20px;
+
+      & > .rb-title {
+        font-size: $rb-doc-template-field-sidebar-font-size-lg;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .form-group.rb-immutable .rb-text {
+    font-size: $rb-doc-template-field-sidebar-font-size-lg;
+  }
+
+  .custom-checkbox {
+    margin-bottom: 12px;
+  }
+}

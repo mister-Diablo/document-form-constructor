@@ -1,0 +1,27 @@
+$rb-field-rule-btn-toolbar-bg: rgba(0, 0, 0, 0.03) !default;
+
+.rb-field-rule-form-modal {
+  .modal-body {
+    padding: 0;
+
+    & > .card {
+      border: none;
+      border-radius: 0;
+    }
+  }
+
+  .btn-toolbar {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    background-color: $rb-field-rule-btn-toolbar-bg;
+    padding: 10px 10px;
+    border-top: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+  }
+
+  textarea.form-control {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

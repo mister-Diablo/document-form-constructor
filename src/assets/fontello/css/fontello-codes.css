@@ -1,0 +1,10 @@
+
+.icon-chevron-up:before { content: '\e81e'; } /* '' */
+.icon-chevron-right:before { content: '\e81f'; } /* '' */
+.icon-chevron-left:before { content: '\e820'; } /* '' */
+.icon-chevron-down:before { content: '\e821'; } /* '' */
+.icon-delete:before { content: '\e82a'; } /* '' */
+.icon-search:before { content: '\e834'; } /* '' */
+.icon-add:before { content: '\e836'; } /* '' */
+.icon-close:before { content: '\e841'; } /* '' */
+.icon-edit:before { content: '\f1bf'; } /* '' */

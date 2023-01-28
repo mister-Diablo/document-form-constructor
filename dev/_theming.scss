@@ -1,0 +1,31 @@
+// Colors
+$primary: #4A9B6C;
+$secondary: #2B2D33;
+$success: #19B28D;
+$info: #17a2b8;
+$attention: #CB662F;
+$warning: #F88545;
+$danger: #ee505a;
+$light: #FBFBFB;
+$dark: #404247;
+$green: #BFE9DF;
+$red: #faced1;
+
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark,
+        "green": $green,
+        "red": $red,
+        "attention": $attention
+);
+
+// Validation
+$enable-validation-icons: false;
+
+$input-border-radius: 2px !default;

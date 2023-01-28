@@ -1,0 +1,36 @@
+.rb-doc-form {
+  h4 {
+    font-weight: bold;
+    font-size: $rb-doc-form-font-size-lg;
+  }
+
+  .rb-form-section {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .rb-form-column {
+    flex: 1;
+  }
+
+  .rb-form-column:first-child {
+    margin-left: 0;
+  }
+
+  .rb-form-column:last-child {
+    margin-right: 0;
+  }
+
+  .rb-form-column {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  legend.col-form-label {
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,112 @@
+.rb-doc-template-constructor {
+  height: 100%;
+
+  h4 {
+    color: $rb-doc-template-constructor-title-color;
+    font-weight: bold;
+    font-size: $rb-doc-template-constructor-title-font-size;
+  }
+
+  .rb-form-constructor {
+    height: 100%;
+    overflow-y: auto;
+    background-color: white;
+  }
+
+  .rb-constructor-toolbar {
+    padding: 16px 16px 16px 16px;
+    background-color: white;
+    border-bottom: 1px solid $border-color;
+
+    h4 {
+      margin-bottom: 0;
+      line-height: 38px;
+      margin-right: 10px;
+    }
+
+    .btn {
+      margin-left: 10px;
+    }
+  }
+
+  .rb-constructor-body {
+    padding: 16px;
+
+    .card {
+      border-width: 2px;
+      border-style: dashed;
+      background-color: $rb-doc-template-section-bg;
+
+      .card-header, .card-body {
+        background-color: $rb-doc-template-section-bg;
+        border-color: $border-color;
+
+      }
+    }
+
+    .rb-form-card {
+      margin-bottom: 20px;
+
+      .rb-form-column {
+        flex: 1;
+      }
+
+      .card-header {
+        border-bottom-width: 0;
+        display: flex;
+        flex-direction: row;
+
+        .rb-text {
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: bold;
+        }
+
+        .rb-icon {
+          line-height: 24px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .rb-form-column {
+      .form-group:hover {
+        legend.col-form-label .rb-actions {
+          visibility: visible;
+        }
+      }
+
+      legend.col-form-label {
+        font-size: $font-size-base;
+        font-weight: bold;
+        margin-bottom: 12px;
+        display: flex;
+        flex-direction: row;
+        color: $rb-doc-template-constructor-title-color;
+
+        .rb-text {
+          flex: 1;
+        }
+
+        .rb-actions {
+          visibility: hidden;
+        }
+      }
+
+      .form-control:disabled,
+      .btn.disabled {
+        background-color: white;
+        opacity: 1;
+      }
+    }
+
+    .rb-form-column {
+      padding: 10px;
+      border: 2px dashed $rb-doc-template-constructor-form-column-border-color;
+    }
+
+    .rb-form-column:not(.rb-single-column) {
+      margin: 0 10px;
+    }
+  }
+}

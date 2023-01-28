@@ -1,0 +1,41 @@
+.rb-facets-sidebar {
+  height: 100%;
+  width: 264px;
+  overflow-y: auto;
+  background-color: white;
+  border-right: 1px solid $rb-facet-list-border-color;
+
+  h4 {
+    padding: 24px 16px 16px 16px;
+  }
+
+  h6 {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 500;
+  }
+
+  form {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .rb-facet-label {
+    font-weight: bold;
+  }
+
+  .rb-facet-list {
+    .rb-facet {
+      padding: 10px 0;
+    }
+
+    & > .rb-facet:not(:last-child) {
+      border-bottom: 1px solid $rb-facet-list-border-color;
+    }
+
+    .list-group-item {
+      border-radius: 0;
+      border: none;
+    }
+  }
+}
